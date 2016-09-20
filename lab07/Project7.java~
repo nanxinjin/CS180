@@ -1,0 +1,19 @@
+import javax.swing.JOptionPane;
+
+public class Project7 {
+  public static void main(String[] args) {
+      JOptionPane.showMessageDialog (null, 
+                                     ?Welcome to CollegeFeeCalculator!?,
+                                     ?CollegeFeeCalculator?,
+                                     JOptionPane.INFORMATION_MESSAGE);
+  
+      int result;
+      result = JOptionPane.showConfirmDialog(null,
+                                             "Please enter your name,then press OK",
+                                             "Name",
+                                             JOptionPane.INFORMATION_MESSAGE,
+                                             JOptionPane.OK_CANCEL_OPTION);
+  }
+
+
+}
